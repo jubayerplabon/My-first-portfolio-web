@@ -24,6 +24,13 @@ nav{
 }
 /* shere style */
 
+.bg-sec{
+    background-color: bisque;
+}
+.text-c{
+    text-align: center;
+}
+
 .R{
    color: brown; 
 }
@@ -40,6 +47,15 @@ nav{
     border: none;
     border-radius: 10px;
 
+}
+.section-tit{
+    font-size: 35px;
+    font-weight: bold;
+    color:#474747 ;
+}
+.section-des{
+    font-size: 18px;
+    color: #181818;
 }
 nav ul{
     display: flex;
@@ -83,4 +99,54 @@ nav li a{
 .banner-propic{
     width: 580px;
 
+}
+/* about */
+.about{
+    border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin-top: 125px;
+}
+/* about iteams */
+
+.father-of-iteam{
+    display: flex;
+    justify-content: space-around;
+}
+.iteam{
+
+}
+.it-tt{
+
+}
+.it_ds{
+font-weight: 500;
+}
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+
+}
+/* skill section */
+
+.skills{
+margin-top: 130px;
+}
+.sec-tit{
+
+}
+.sec-desc{
+    
+}
+.skilss{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 32px;
+    box-shadow: 0 6px 50px 10px #474747;
+    border-radius: 20px;
 }
