@@ -27,6 +27,9 @@ nav{
 .bg-sec{
     background-color: bisque;
 }
+.second-bg{
+    background-color: aliceblue;
+}
 .text-c{
     text-align: center;
 }
@@ -149,4 +152,46 @@ margin-top: 130px;
     padding: 32px;
     box-shadow: 0 6px 50px 10px #474747;
     border-radius: 20px;
+}
+/* resume section */
+
+.resume-container{
+    display: flex;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+color: #575757;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.rs-btn{
+    margin-top: 50px;
+}
+.section-title{
+    margin-top: 130px;
+    font-size: 40px;
+}
+/* footer */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.foot-column{
+    width: 50%;
+}
+.text{
+    height: 64px; 
+    border-radius: 7px;
+    background-color: azure;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
